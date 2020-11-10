@@ -1,0 +1,327 @@
+html{
+    scroll-behavior: smooth;
+}
+.fa-arrow-alt-circle-up{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    position: fixed;
+    font-size: 0px;
+    z-index: 500;
+    transition: all 1s ease-in-out;
+}
+.fa-arrow-alt-circle-up:hover{
+    cursor: pointer;
+}
+body input[type="button"],button{
+     transition: all 0.4s ease-in-out;
+}
+div.slider{
+    background-image: url('../images/79.jpg');
+    background-size: cover;
+    color: #FFF;
+    height: 650px;
+    padding: 30px;
+    padding-left: 50px;
+    opacity: 0.9;
+    clear: both;
+}
+.h{
+    float: left;
+    font-weight: bold;
+}
+.d2{
+    text-align: center;
+    margin-top: 230px;
+}
+.d2 span{
+    color: #007BFF;
+}
+.d2 h1{
+    font-weight: bold
+}
+.slider button{
+ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 15px;
+    background-color: rgb(0,0,0,0);
+    border:4px solid  white;
+    color: white;
+    font-weight: bold;
+}
+.slider button:hover{
+    cursor: pointer;
+    color: #007BFF;
+    border-color: #007BFF;
+}
+.c1{
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+.hr1{
+    width: 70px;
+    float: left;
+    margin-top: 0px;
+background-color:cadetblue;
+
+}
+.let{
+margin-top: 20px;
+}
+.c1 i{
+    color: #007BFF;
+    font-size: 60px;
+    float: left;
+    margin-right: 15px;
+   line-height: 70px;
+}
+.c1 p{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #6B6B6B;
+}
+.hr2{
+    width: 100%;
+    border: 1px solid #CCC;
+}
+.p1{
+    margin-left: 0px;
+    margin-top: 20px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #6B6B6B;
+}
+.partx{
+    width: 28%;
+    float: left;
+}
+.party{
+     width: 50%;
+    height: 150px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 20px;
+}
+.party .per1{
+    width: 25%;
+    height: 100%;
+    margin-left: 20px;
+    float: left;
+    background-size: cover;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+.per1 h2{
+     font-size: 0px;
+    font-weight: bold;
+    margin: 60px auto;
+    color: #007BFF;
+    font-family: "Courier New", Courier, monospace;
+    transition: all 0.5s ease-in-out;
+}
+.per1:hover{
+        cursor: pointer;
+    opacity: 0.5;
+    transform: scale(1.2,1.2);
+    border-top-left-radius: 10px;
+}
+.per1:hover h2{
+        font-size: 30px;
+}
+.per1:first-of-type{
+    background-image: url('../images/20.jpg');
+}
+.per1:nth-of-type(2){
+    background-image: url('../images/41.jpg');
+}
+.per1:last-of-type{
+    background-image: url('../images/71.jpg');
+}
+.carousel-inner{
+    text-align: center;
+    padding-top: 30px;
+  height: 300px;
+    margin-top: 50px;
+    background-image: url(../images/88.jpg);
+}
+.carousel-item{
+    color: aliceblue;
+    margin-top: 50px;
+}
+.carousel-item h5{
+    font-style: italic;
+}
+.carousel-item img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: 2px solid #007bff;
+}
+.carousel-control-next{
+    top: 10%;
+}
+.carousel-control-prev{
+    top: 10%;
+}
+.wel input[type="button"]{
+    width: 80px;
+    padding: 8px;
+    margin-left: 3px;
+    margin-bottom: 15px;
+    color: #6B6B6B;
+    background-color: #FFFFFF;
+    border:1px solid  white;
+    border-radius: 5px;
+}
+.wel input[type="button"]:hover{
+    background-color:#007BFF;
+    color: white;
+}
+.wel{
+    margin-top: 15px;
+}
+.f11{
+    margin-left: 15px;
+    height: 250px;
+    margin-bottom: 25px;
+    position: relative;
+    display: none;
+}
+.f11:nth-of-type(1){
+     background-image: url('../images/55.jpg');
+    background-size:cover;
+        background-repeat: no-repeat;
+}
+.f11:nth-of-type(2){
+     background-image: url('../images/65.jpg');
+    background-size:cover;   
+    background-repeat: no-repeat;
+}
+.f11:nth-of-type(3){
+     background-image: url('../images/90.jpg');
+    background-size:cover;  
+    background-repeat: no-repeat;
+}
+.f11:nth-of-type(4){
+     background-image: url('../images/87.jpg');
+    background-size:cover;
+        background-repeat: no-repeat;
+}
+.f11:nth-of-type(5){
+      background-image: url('../images/67.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.f11:nth-of-type(6){
+      background-image: url('../images/8.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.f11:nth-of-type(7){
+      background-image: url('../images/64.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.f11:nth-of-type(8){
+      background-image: url('../images/83.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.f11:last-of-type{
+     background-image: url('../images/89.jpg');
+    background-size:cover;
+        background-repeat: no-repeat;
+}
+.f11:hover{
+    cursor: pointer;
+}
+.f11 input[type="button"]
+{
+    position: absolute;
+    top:80%;
+    left: 1%;
+    width: 100px;
+    transition: all 0.4s ease-in-out;
+    opacity: 0.5;    
+    border-color: #6B6B6B ;
+}
+.f11 input[type="button"]:hover{
+    opacity: 1;
+    cursor: pointer;
+       border-color: #27A883;
+}
+.f11 i{
+    top:85%;
+    left: 80%;
+    position: relative;
+    font-size: 30px;
+    color: #007BFF;
+}   
+.f11 span,.all span{
+    top:83%;
+    left: 82%;
+    position: relative;
+    color: white;
+}
+div.footer{
+   height: 400px;
+    background-color: #007BFF;
+    padding-top: 15px;
+    margin-top: 50px;
+    color: white;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.n1{
+    width: 30%;
+    float: left;
+    margin-left: 15px;
+}
+.n1 i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.n1 i:hover{
+    cursor: pointer;
+}
+.n1 button{
+    background-color: rgb(0,0,0,0);
+    color: white;
+    margin-left: 5px;
+    margin-bottom: 7px;
+    border:1px solid white;
+    line-height: 25px;
+}
+.n1 button:hover{
+    cursor: pointer;
+}
+.a,.b{
+    height: 120px;
+    float: left;
+width: 57%;
+    margin-bottom: 15px;
+}
+.r1:hover{
+    cursor: pointer;
+}
+.r1 p{
+    margin-left: 5px;
+    float: left;
+    width: 40%;
+}
+.a{
+    background-image: url('../images/90.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.b{
+     background-image: url('../images/91.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.n1 a{
+    color: white;
+    text-decoration: none;
+}
+.n1 hr{
+background-color: aliceblue;
+}
